@@ -2,7 +2,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
 <head>
-<title>TestiPhone.com - iPhone Application Web Based Simulator</title>
+<!--  Prevent caching website content between visits -->
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="Pragma-directive" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Directive" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="0">
+<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Mobile IE needs ClearType for smoothing fonts -->
+<meta http-equiv="cleartype" content="on">
+<title>iPhone Internet Simulator</title>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <meta name="robots" content="index,follow" />
 <meta name="description" content="Free Web Based iPhone Web2.0 Application Simulator for Safari" />
@@ -12,7 +24,7 @@
 <script language="JavaScript" src="js/testiphone.js"></script>
 </head>
 <body style="background:#222222" id="docbody" onload="correctPNG();if(event.keyCode == 82){Rotate_Phone(null)}">
-<center>
+<!--center-->
 <div id="wrapper" class="tall">
 
 <div id="phone">
@@ -27,7 +39,7 @@
 			<div id="iphone_corner_tr"></div>
 		</div>
 		<div id="safari_address" onmouseover="setScrolling('auto')" onmouseout="setScrolling('no')">
-			<div id="safari_title">iPhone Simulator</div>
+			<div id="safari_title"></div>
 			<div id="safari_plus"></div>
 			<div id="safari_addressbglt" class="loadingAoff"></div>
 			<div id="safari_inputw">	
@@ -53,7 +65,7 @@
 </div>
 </div>
 </div>
-</center>
+<!--/center-->
 <script>
 </script>
 </body>
